@@ -11,3 +11,90 @@ html {
   font-size: 62.5%;
   font-family: "Open Sans", sans-serif;
 }
+
+.top-section {
+  background-color: #b3eeff;
+  background-image: url(../img/bg-hero-desktop.svg);
+  background-size: contain;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 5rem 0 5rem;
+}
+
+.header-btn {
+  text-decoration: none;
+  color: #00252e;
+  background-color: #fff;
+  padding: 1.7rem 6rem;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+.header-btn:hover,
+.header-btn:active {
+  background-color: #f2f0f0;
+  scale: 1.05;
+}
+
+.container {
+  max-width: 150rem;
+  margin: 0 auto;
+}
+
+.hero-area {
+  display: flex;
+  gap: 3rem;
+  padding: 5rem;
+}
+
+.hero-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-heading {
+  font-size: 4rem;
+  width: 78%;
+  margin-bottom: 3rem;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  width: 77%;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.hero-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff52bf;
+  padding: 1.7rem 6rem;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: fit-content;
+  transition: all 0.2s;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  scale: 1.05;
+  background-color: #fc87d1;
+}
+
+.hero-right {
+  width: 50%;
+}
+
+.hero-img {
+  width: 100%;
+}
