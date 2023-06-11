@@ -98,3 +98,48 @@ html {
 .hero-img {
   width: 100%;
 }
+
+.showcase-section {
+  margin: 10rem 0;
+}
+
+.card {
+  display: flex;
+  gap: 16rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 24%) 0px 0px 13px;
+  padding: 6rem;
+  border-radius: 1.5rem;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+.card:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.card-text {
+  padding: 8rem;
+}
+
+.card-text h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.card-text p {
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+.card-img {
+  display: flex;
+  justify-content: end;
+}
+
+.card-img-illustration {
+  width: 100%;
+}
