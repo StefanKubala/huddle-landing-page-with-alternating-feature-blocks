@@ -100,7 +100,7 @@ html {
 }
 
 .showcase-section {
-  margin: 10rem 0;
+  margin-top: 10rem;
 }
 
 .card {
@@ -119,6 +119,10 @@ html {
 
 .card:nth-child(2) {
   flex-direction: row-reverse;
+}
+
+.card:nth-child(3) {
+  margin-bottom: 10rem;
 }
 
 .card-text {
@@ -142,4 +146,94 @@ html {
 
 .card-img-illustration {
   width: 100%;
+}
+
+.bottom-card {
+  box-shadow: rgb(0 0 0 / 24%) 0px 0px 13px;
+  width: 60rem;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  position: relative;
+  top: 7rem;
+  background-color: #fff;
+}
+
+.bottom-card h3 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.footer {
+  background-color: #00252e;
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.footer-logo {
+  margin-bottom: 4rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.footer-list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-list li {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.footer-list li a:hover,
+.footer-list li a:active {
+  color: #c8c6c6;
+}
+
+.location,
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact div {
+  margin-bottom: 1.5rem;
+}
+
+.location {
+  align-items: start;
+}
+
+.footer-img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.social-list {
+  display: flex;
+  gap: 2rem;
+}
+
+.social-list li a {
+  border: solid 0.1rem #dadbdc;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.social-list li a:hover {
+  color: #bebebe;
+  border: 1px solid #bebebe;
 }
